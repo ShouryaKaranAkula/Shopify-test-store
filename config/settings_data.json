@@ -2,15 +2,15 @@
   "current": {
     "logo_width": 90,
     "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#730606",
-    "gradient_accent_1": "linear-gradient(133deg, rgba(250, 220, 54, 1) 11%, rgba(254, 98, 146, 1) 49%, rgba(250, 220, 54, 1) 87%)",
-    "colors_accent_2": "#4b5a91",
-    "gradient_accent_2": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+    "colors_accent_1": "#ffffff",
+    "gradient_accent_1": "",
+    "colors_accent_2": "#121212",
+    "gradient_accent_2": "",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#ffffff",
     "gradient_background_1": "",
-    "colors_background_2": "#f3f3f3",
+    "colors_background_2": "#ffffff",
     "gradient_background_2": "",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
@@ -138,11 +138,53 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "scroll-announcement-bar": {
+        "type": "scroll-announcement-bar",
+        "blocks": {
+          "fdc99ec5-5427-4000-badd-7780033e6e17": {
+            "type": "header",
+            "settings": {
+              "message": "GET FREE SHIPPING AND 2-DAY DELIVERY!!! HURRY UP!!!"
+            }
+          },
+          "13a5ec0e-1241-4f5c-a0e8-b4196ae59b64": {
+            "type": "header",
+            "settings": {
+              "message": "FREE SHIPPING AUSTRALIA WIDE ON ALL ORDERS OVER $89"
+            }
+          }
+        },
+        "block_order": [
+          "fdc99ec5-5427-4000-badd-7780033e6e17",
+          "13a5ec0e-1241-4f5c-a0e8-b4196ae59b64"
+        ],
+        "settings": {
+          "show_announcement_bar": true,
+          "autoplay": true,
+          "delay": "4000",
+          "colorBackground": "#f4f1ff",
+          "colorText": "#121212"
+        }
       }
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "2950567246721570496": {
+        "type": "shopify:\/\/apps\/tabs-studio\/blocks\/global_embed_block\/19980fb9-f2ca-4ada-ad36-c0364c3318b8",
+        "disabled": true,
+        "settings": {
+          "init_type": "fallback",
+          "init_selector": "",
+          "replace_contents": false,
+          "init_timing": "immediate",
+          "custom_script": "",
+          "custom_style": ""
+        }
+      }
+    }
   },
   "presets": {
     "Default": {

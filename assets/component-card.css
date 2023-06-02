@@ -171,6 +171,11 @@
 .card__heading {
   margin-top: 0;
   margin-bottom: 0;
+  /* position: absolute;
+  top: 80%;
+  left: 5%;
+  color: white;
+  text-transform: uppercase; */
 }
 
 .card__heading:last-child {
