@@ -17,7 +17,6 @@
                 style="padding-bottom: {{ 1 | divided_by: article.image.aspect_ratio | times: 100 }}%;"
               {% endif %}
             >
-              {%- render 'breadcrumbs' -%}
               <img
                 srcset="
                   {% if article.image.width >= 350 %}{{ article.image | image_url: width: 350 }} 350w,{% endif %}
@@ -63,7 +62,7 @@
         >
           {{ article.content }}
         </div>
-        {%- render 'breadcrumbs' -%}
+
       {%- when 'share' -%}
         <div class="article-template__social-sharing page-width page-width--narrow" {{ block.shopify_attributes }}>
           {% assign share_url = request.origin | append: article.url %}
