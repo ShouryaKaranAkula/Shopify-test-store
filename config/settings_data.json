@@ -163,8 +163,8 @@
           "show_announcement_bar": true,
           "autoplay": true,
           "delay": "4000",
-          "colorBackground": "#f4f1ff",
-          "colorText": "#121212"
+          "colorBackground": "#32b56f",
+          "colorText": "#ffffff"
         }
       }
     },
@@ -172,6 +172,18 @@
 
     ],
     "blocks": {
+      "534977871531306417": {
+        "type": "shopify:\/\/apps\/tnc-terms-and-conditions-box\/blocks\/app-embed\/2b45c8fb-5ee2-4392-8a72-b663da1d38ad",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "16278478101612877664": {
+        "type": "shopify:\/\/apps\/pagefly-page-builder\/blocks\/app-embed\/83e179f7-59a0-4589-8c66-c0dddf959200",
+        "disabled": false,
+        "settings": {
+        }
+      },
       "2950567246721570496": {
         "type": "shopify:\/\/apps\/tabs-studio\/blocks\/global_embed_block\/19980fb9-f2ca-4ada-ad36-c0364c3318b8",
         "disabled": true,

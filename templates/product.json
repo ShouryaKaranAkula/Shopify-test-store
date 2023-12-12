@@ -15,15 +15,16 @@
           "settings": {
           }
         },
-        "price": {
-          "type": "price",
+        "26fe9f9c-60e5-4be0-8e3c-37850a0c459e": {
+          "type": "custom_liquid",
           "settings": {
+            "custom_liquid": "<label for=\"height\">Wall Height :<\/label>\n<select id=\"height\" name=\"wallheight\">\n<option>2.4 meters<\/option>\n<option>2.7 meters<\/option>\n<\/select>\n<style>\nselect{\nwidth:200px;\n\n}\n<\/style>"
           }
         },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "dropdown"
           }
         },
         "quantity_selector": {
@@ -31,10 +32,10 @@
           "settings": {
           }
         },
-        "buy_buttons": {
+        "d0ebc20d-6d11-479e-9069-2da607f2e893": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": false,
+            "show_dynamic_checkout": true,
             "show_gift_card_recipient": false
           }
         },
@@ -45,8 +46,8 @@
             "default_tab": "tab",
             "default_tab_title": "Description",
             "pro_tabs": true,
-            "layout": "vertical",
-            "layout_breakpoint": 750,
+            "layout": "breakpoint",
+            "layout_breakpoint": 768,
             "open_first_tab": true,
             "allow_multiple_open": false,
             "initialize_tabs": "immediate",
@@ -69,10 +70,10 @@
       "block_order": [
         "vendor",
         "title",
-        "price",
+        "26fe9f9c-60e5-4be0-8e3c-37850a0c459e",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
+        "d0ebc20d-6d11-479e-9069-2da607f2e893",
         "fd311304-bb9a-43d8-b56d-fe022228b3b3",
         "description",
         "share"
